@@ -2,5 +2,58 @@ body {
     margin: 0 auto;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    color: #212121;
 }
 
+.container {
+    margin: 10px;
+}
+
+.logomain {
+    max-width: 600px;
+    margin-left: 0px; /* Glitching in Brackets (wants -10px) */
+}
+
+nav {
+    background-color: #212121;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul a, ul a:visited {
+    text-decoration: none;
+    color: #dddddd;
+    display: block;
+    padding: 10px;
+}
+
+ul a:hover, .active {
+    background-color: #454545;   
+}
+
+.footer {
+    padding: 10px;
+    background-color: #212121;
+    color: #dddddd;
+    text-align: center;
+}
+
+.footer a {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #1ed7e3;   
+}
